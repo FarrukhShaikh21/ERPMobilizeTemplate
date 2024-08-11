@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BC4JConfig version="11.1" xmlns="http://xmlns.oracle.com/bc4j/configuration">
+   <AppModuleConfigBag ApplicationName="erpsoltemp.erpsoltempmodel.erpsoltempam.ERPSolTempAppModule">
+      <AppModuleConfig name="1913FBD94C1" JDBCName="ERPMobTemplateConn" DeployPlatform="LOCAL" jbo.project="erpsoltemp.erpsoltempmodel.ERPSolTempModel" IsLazyLoadingTrue="true" java.naming.factory.initial="oracle.jbo.common.JboInitialContextFactory" BC4JConfigName="ERPSolTempAppModuleLocal" ApplicationName="erpsoltemp.erpsoltempmodel.erpsoltempam.ERPSolTempAppModule" DBconnection="java:comp/env/jdbc/ERPMobTemplateConnDS">
+         <Database jbo.locking.mode="optimistic" jbo.TypeMapEntries="OracleApps" jbo.SQLBuilder="Oracle"/>
+         <Security AppModuleJndiName="erpsoltemp.erpsoltempmodel.erpsoltempam.ERPSolTempAppModule"/>
+         <Tester FullProxyInterfaceName="erpsoltemp.erpsoltempmodel.erpsoltempam.common.ERPSolTempAppModule"/>
+         <Custom ns0:JDBCDataSource="java:comp/env/jdbc/ERPMobTemplateConnDS" ns0:_testers_credentials_needed="false" ns0:ns0="http://xmlns.oracle.com/bc4j/configuration" xmlns:ns0="http://xmlns.oracle.com/bc4j/configuration"/>
+      </AppModuleConfig>
+   </AppModuleConfigBag>
+</BC4JConfig>
